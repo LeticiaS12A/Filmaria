@@ -1,0 +1,32 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 98.8vw;
+    height: 12vh;
+    background: #a52a2a;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+header a{
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    transition: opacity 0.3s;
+}
+
+header a:hover{
+    opacity: 0.8;
+}
+
+.logo{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.favoritos{
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
